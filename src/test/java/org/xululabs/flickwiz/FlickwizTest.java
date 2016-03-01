@@ -39,22 +39,6 @@ public class FlickwizTest
     	assert(true);
     }
        
-    public void testToTrimSucess()
-    {
-    	String testValue="Stan Lee (Marvel comic book)";
-    	String expectedValue="StanLee";
-    	String resultValue=MyRestService.toTrim(testValue);   	
-    	assertEquals(expectedValue,resultValue);
-    }
-    
-    
-    public void testGetGenreCodeSucess()
-    {
-    	String testValue="Action";
-    	String expectedValue="28";
-    	String resultValue=MyRestService.getGenreCode(testValue);   	
-    	assertEquals(expectedValue,resultValue);
-    }
     
     
     public void testToMapObject()
